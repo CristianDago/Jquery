@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Roboto;
+	font-weight: 300;
+	margin:0px;	
+	background: url("../img/fondo.jpg");
+	background-size: cover;
+}
+
+h3 {
+	font-weight: 500;
+}
+
+section {
+	display: flex;
+	text-align: center;
+	height: 100vh;
+	align-items: center;
+}
+
+.column-2 {
+	width: 20%;
+	background: red;
+}
+
+.column-8 {
+	width: 60%;
+	display: flex;
+}
+
+.formulario {
+	width: 70%;
+	justify-content: center;
+	color:#ffffff;
+}
+
+.formulario img {
+	max-width: 50%;
+}
+
+.panel {
+	width: 30%;
+	justify-content: center;
+	
+}
+
+.card {
+	box-shadow: 2px 2px 5px #999999;
+	width: 100%;
+	background: #141B35;
+	border-radius: 15px;
+	padding: 30px 20px;	
+}
+
+
+.card-body{
+	display:flex;
+	flex-direction: column;
+}
+
+
+input {
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px 10px 5px 10px;
+}
+
+select {
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px 10px 20px 10px;		
+}
+
+.tabla {
+	background: #f4f4f4;
+	width: 100%;
+	padding: 50px 0px;
+	border-radius: 0px 10px 10px 0px;
+	box-shadow: 2px 2px 5px #999999;
+}
+
+#colorSeleccion {
+	padding: 0px 11px;
+	border-radius:50%;
+	margin-left:5px;
+	border: solid 2px #000000;
+}
+
+
+button {
+ 	background: #23bbaf;
+ 	padding: 10px 50px;
+ 	border-radius: 15px;
+ 	color: #ffffff;
+ 	font-weight: 700;
+	
+}
+
+
+button:hover {
+	
+ 	background: #ffffff;
+ 	color: #141B35;
+
+	
+}
+
+
+@media (max-width: 767px) {
+
+	
+section{
+	height: auto;
+}
+	
+.column-8 {
+	display: block;
+	width: 100%;
+	margin-top:20px; 
+}	
+	
+	
+.column-8 {
+	margin-bottom:20px; 
+}	
+	
+	
+.formulario{
+	width: 100%;
+}
+	
+.panel{
+	width: 100%;		
+}
+
+	
+.card {
+	border-radius: 10px 10px 0px 0px
+}
+	
+.tabla {
+	border-radius: 0px 0px 10px 10px;
+	}
+	
+}
+	

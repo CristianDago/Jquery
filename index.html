@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculadora</title>
+	
+	
+	<!-- Estilos -->	
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+	<!-- Google font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<section>
+	
+		<div class="column-2">
+		</div>
+		
+		<div class="column-8">
+			<section class="formulario">
+					<div class="card">
+						<div class="card-header">
+							<img src="assets/img/Logo_stackmedia.png" alt="logo">
+						</div>
+						<div class="card-body">
+							<div>
+								<img src="assets/img/Laptop-PNG-File.png" alt="notebook">
+							</div>
+							<h3>Laptop Gamer AMD</h3>
+							<input placeholder="Cantidad" id="cantidad">
+							<select id="selector1" onchange="colorNote()">
+								<option hidden selected>Color</option>
+								<option value="black">Negro</option>
+								<option value="red">Rojo</option>
+								<option value="blue">Azul</option>	
+							</select>
+						</div>
+						<div class="card-footer">
+							<h3>Precio: <span id="precio">400000</span></h3>
+							<button onclick="calcular()">Calcular</button>
+						</div>
+					</div>
+			</section>
+			
+			<section class="panel">
+				
+					<div class="tabla">
+				
+						<h3>Total: <span id="resultado"></span> </h3>
+						<h3>Cantidad: <span id="cantidadTabla"></span></h3>
+						<h3>Color: <span id="colorSeleccion"></span></h3>
+						
+				    </div>
+	
+			</section>
+		</div>
+		
+		<div class="column-2">
+		</div>
+
+	</section>
+	
+
+
+	
+
+	
+<script src="assets/js/script.js"></script>	
+	
+</body>
+</html>
